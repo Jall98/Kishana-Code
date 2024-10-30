@@ -1,0 +1,18 @@
+/* src/styles/globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Global Styles */
+body {
+  @apply bg-secondary text-primary;
+}
+
+a {
+  @apply text-accent3 hover:text-accent1 transition-colors;
+}
+
+button {
+  @apply focus:outline-none;
+}
